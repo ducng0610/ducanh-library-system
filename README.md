@@ -1,11 +1,11 @@
 # README
 
-## GROUP <add-group-name>
+## GROUP Team-Library
 
-- Member 1: <add-name>
-- Member 2: <add-name>
-- Member 3: <add-name>
-- Member 4: <add-name>
+- Member 1: Nguyen Duc Anh
+- Member 2: Nguyen Van A
+- Member 3: Nguyen Van B
+- Member 4: Nguyen Van C
 
 ## Starting server
 
