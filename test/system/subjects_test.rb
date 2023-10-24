@@ -14,6 +14,8 @@ class SubjectsTest < ApplicationSystemTestCase
     visit subjects_url
     click_on "New subject"
 
+    check "Avaible" if @subject.avaible
+    fill_in "Description", with: @subject.description
     fill_in "Name", with: @subject.name
     click_on "Create Subject"
 
@@ -25,6 +27,8 @@ class SubjectsTest < ApplicationSystemTestCase
     visit subject_url(@subject)
     click_on "Edit this subject", match: :first
 
+    check "Avaible" if @subject.avaible
+    fill_in "Description", with: @subject.description
     fill_in "Name", with: @subject.name
     click_on "Update Subject"
 
